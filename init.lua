@@ -1,3 +1,2 @@
+-- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>jv", vim.cmd.Ex)
